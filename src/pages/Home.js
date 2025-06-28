@@ -327,7 +327,7 @@ const Home = () => {
       <Container maxWidth="lg" sx={{ marginTop: -8, position: 'relative', zIndex: 4 }}>
         <Grid container spacing={3}>
           {[
-            { icon: <LocalShippingIcon />, title: 'Envío Rápido', description: 'Entrega segura y a tiempo' },
+            { icon: <LocalShippingIcon />, title: 'Entrega Rápido', description: 'Entrega segura y a tiempo' },
             { icon: <SecurityIcon />, title: 'Compra Segura', description: 'Transacciones 100% seguras' },
             { icon: <WhatsAppIcon />, title: 'Soporte 24/7', description: 'Estamos aquí para ayudarte' }
           ].map((feature, index) => (
